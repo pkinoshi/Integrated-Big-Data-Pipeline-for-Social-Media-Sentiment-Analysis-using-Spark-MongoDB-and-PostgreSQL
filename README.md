@@ -20,7 +20,9 @@ This project implements a mini big data pipeline that collects, stores, processe
 The chosen theme for data collection was `“technology”` and `“climate”`, both relevant and trending topics.
 
 ## System Architecture
-**The pipeline consists of three major steps:**
+
+The pipeline consists of three major steps:
+
 ### **1.	Twitter Data Collection & Storage in MongoDB**
 - Using the Twitter API (via Tweepy), tweets containing “technology” or “climate” are fetched in real-time and stored in MongoDB.
 - Raw data is preserved in JSON format for flexibility in downstream processing.
@@ -56,28 +58,24 @@ The chosen theme for data collection was `“technology”` and `“climate”`,
 **Objective:** To clean tweet text and label each tweet with a sentiment category.
 
 **Key Actions:**
-
 - Loaded data from MongoDB into Spark using the MongoDB Spark Connector.
 - Applied regular expression rules to:
     - Remove URLs, mentions, hashtags.
     - Remove special characters and newline breaks
     - Trim leading/trailing spaces. 
-
 - Implemented opinion lexicon-based sentiment analysis:
     - Used predefined positive and negative word lists.
     - Assigned sentiment:
       -	Positive: contains positive words.
       -	Negative: contains negative words.
       -	Neutral: contains neither.
-
-**- •	Output:** Spark DataFrame with a new sentiment column.
+- **Output:** Spark DataFrame with a new sentiment column.
 
 ### **3.3 Step 3 - PostgreSQL Integration & Analysis**
 
 **Objective:** To store processed data in PostgreSQL and run analytical queries.
 
 **Key Actions:**
-
 - Created PostgreSQL table tweets with fields:
     - `_id, author_id, created_at, id, text, sentiment.`
 - Wrote processed Spark DataFrame to PostgreSQL using JDBC.
@@ -87,7 +85,6 @@ The chosen theme for data collection was `“technology”` and `“climate”`,
     3.	Sentiment distribution over time: trends by day, hour, and minute.
 
 **Insight:**
-
 - Positive tweets dominated the dataset, indicating a generally optimistic discussion.
 - The most active user contributed 3 tweets.
 
