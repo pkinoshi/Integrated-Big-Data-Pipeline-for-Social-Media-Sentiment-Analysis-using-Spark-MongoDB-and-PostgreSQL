@@ -5,7 +5,7 @@
 
 #### **Team:** [Aduragbemi Akinshola Kinoshi](https://github.com/pkinoshi) | Amanda Gana |Christiana Richards | Comfort Sophia Iwo Odike | King Richard | Margaret Oliver | Ojo Ilesanmi | Okon Enang | Olumide Akinboyewa | Solomon Ayuba | Susan Ogidan | Yomi Aledare
 
-[PDF Report](https://drive.google.com/file/d/1ZC9Ews3fbsGi1y3jnj3OocOpEyQcuTJv/view) | Group Name: 12 Nodes of Insight
+[PDF Report](https://drive.google.com/file/d/1ZC9Ews3fbsGi1y3jnj3OocOpEyQcuTJv/view) | **Group Name:** 12 Nodes of Insight
 </div>
 
 # DTS 304 – Big Data Computing Project
@@ -102,6 +102,7 @@ The chosen theme for data collection was `“technology”` and `“climate”`,
 ## Challenges & Solutions
 
 | Challenge | Solution |
+|---|---|
 | Twitter API rate limits |	Limited tweet collection to 80 for demonstration.|
 | Large lexicon performance in | Spark	Used chunked condition building to avoid performance bottlenecks.|
 | Text noise in tweets | Applied regex-based cleaning to remove unwanted elements.|
