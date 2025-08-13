@@ -3,7 +3,7 @@
 <div align="center"> 
 <img width="1422" height="293" alt="Group Image" src="https://github.com/user-attachments/assets/78032310-5333-4d1d-bf1d-37518078aa06" />
 
-**Team:** [Aduragbemi Akinshola Kinoshi](https://github.com/pkinoshi) | Amanda Gana |Christiana Richards | Comfort Sophia Iwo Odike | King Richard | Margaret Oliver | Ojo Ilesanmi | Okon Enang | Olumide Akinboyewa | Solomon Ayuba | Susan Ogidan | Yomi Aledare
+**Team:** [Aduragbemi Akinshola Kinoshi](https://github.com/pkinoshi) | Amanda Gana | Christiana Richards | Comfort Sophia Iwo Odike | King Richard | Margaret Oliver | Ojo Ilesanmi | Okon Enang | Olumide Akinboyewa | Solomon Ayuba | Susan Ogidan | Yomi Aledare
 
 [PDF Report](https://drive.google.com/file/d/1ZC9Ews3fbsGi1y3jnj3OocOpEyQcuTJv/view) | **Group Name:** 12 Nodes of Insight
 </div>
